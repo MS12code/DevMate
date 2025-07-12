@@ -46,8 +46,8 @@ DevMate/
 ## ⚙️ Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js, Express (or your server framework)
-- **AI:** (Add API used, e.g., OpenAI API)
+- **Backend:** Node.js (custom server logic, no framework) 
+- **AI:** SambaNova API
 - **Environment Variables:** Managed using `.env`
 
 ---
