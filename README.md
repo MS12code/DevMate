@@ -21,7 +21,7 @@ DevMate/
 ├── backend/                 # Backend server logic
 │   ├── app.js               # Main server file (entry point)
 │   ├── generate.js          # Handles code generation logic
-│   ├── codeDB.json          # (Optional) Stores example code snippets or data
+│   ├── codeDB.json          # Stores example code snippets or data
 │   ├── test/                # Tests for backend logic
 │   ├── node_modules/        # Node.js dependencies
 │   ├── package.json         # Node.js project metadata
@@ -33,7 +33,8 @@ DevMate/
 ├── style.css                # CSS stylesheet for styling the UI
 ├── script.js                # Client-side JavaScript for interactions
 ├── .gitignore               # Git ignore file
-├── README.md                # Project documentation
+└── README.md                # Project documentation
+
 
 
 ---
