@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DevMate – Your AI Code Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* Task Type Button Group Styling */
+    #taskTypeGroup {
+      margin: 10px 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    #taskTypeGroup label {
+      border: 1px solid #ccc;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      user-select: none;
+      background-color: red;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    #taskTypeGroup input[type="radio"] {
+      display: none;
+    }
+
+    /* Highlight selected task type */
+    #taskTypeGroup input[type="radio"]:checked + span {
+      background-color: #fff;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🚀 DevMate</h1>
+    <p>Your smart assistant for code snippets</p>
+  </header>
+
+  <main>
+    <section class="tool-section">
+      <h2>🧠 Code Generator</h2>
+
+      <label for="language">Select Language:</label>
+      <select id="language">
+        <option value="python">Python</option>
+        <option value="cpp">C++</option>
+        <option value="java">Java</option>
+      </select>
+
+      <div id="taskTypeGroup">
+        <label>
+          <input type="radio" name="taskType" value="code" checked />
+          <span>🧑‍💻 Generate Code</span>
+        </label>
+        <label>
+          <input type="radio" name="taskType" value="explain" />
+          <span>📖 Explain Concept</span>
+        </label>
+        <label>
+          <input type="radio" name="taskType" value="complexity" />
+          <span>⏱️ Time & Space Complexity</span>
+        </label>
+        <label>
+          <input type="radio" name="taskType" value="convert" />
+          <span>🔄 Convert Code</span>
+        </label>
+        <label>
+          <input type="radio" name="taskType" value="debug" />
+          <span>🐞 Debug Code</span>
+        </label>
+        <label>
+          <input type="radio" name="taskType" value="ask" />
+          <span>🤖 Ask Anything</span>
+        </label>
+      </div>
+
+      <input type="text" id="codePrompt" placeholder="e.g. binary search" />
+      <button onclick="generateCode()">Generate Code</button>
+
+      <pre id="codeOutput">🤖 DevMate is writing your code...</pre>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
