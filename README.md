@@ -4,7 +4,7 @@
 
 ---
 
-![DevMate Screenshot](C:\Users\LENOVO\OneDrive\Pictures\Screenshots\Screenshot(444).png)
+![DevMate Screenshot](Screenshot(444).png)
 
 ## 📌 Features
 
