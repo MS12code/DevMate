@@ -18,19 +18,22 @@
 ## 🗂️ Project Structure
 
 DevMate/
-├── backend/ # Backend logic
-│ ├── app.js # Main server file
-│ ├── generate.js # Code generation logic
-│ ├── codeDB.json # (Example DB for code snippets)
-│ ├── test/ # Backend tests
-│ └── .qodo/ # Qodo config (if used)
-├── index.html # Main HTML page
-├── style.css # Stylesheet
-├── script.js # Client-side JS
-├── .gitignore # Git ignore rules
-├── package.json # Node.js metadata
-├── package-lock.json # Node.js lock file
-└── README.md # Project README
+├── backend/                 # Backend server logic
+│   ├── app.js               # Main server file (entry point)
+│   ├── generate.js          # Handles code generation logic
+│   ├── codeDB.json          # (Optional) Stores example code snippets or data
+│   ├── test/                # Tests for backend logic
+│   ├── node_modules/        # Node.js dependencies
+│   ├── package.json         # Node.js project metadata
+│   ├── package-lock.json    # Exact version lock file
+│   ├── .env                 # Environment variables (API keys etc.)
+│   └── .qodo/               # (Optional) Qodo config directory if used
+│
+├── index.html               # Main HTML page (frontend UI)
+├── style.css                # CSS stylesheet for styling the UI
+├── script.js                # Client-side JavaScript for interactions
+├── .gitignore               # Git ignore file
+├── README.md                # Project documentation
 
 
 ---
@@ -48,9 +51,10 @@ DevMate/
 
 ### 1️⃣ Clone the repository
 
-```bash
+
 git clone https://github.com/MS12code/DevMate.git
 cd DevMate
+
 
 ### 2️⃣ Install dependencies
 
@@ -65,7 +69,8 @@ PORT=3000
 
 node backend/app.js
 
-📌 Future Enhancements
+## 📌 Future Enhancements
+
 Deploy to a cloud platform (e.g., Vercel, Heroku)
 
 Add authentication & user profiles
@@ -74,7 +79,7 @@ Improve UI/UX design
 
 Add more AI features
 
-🤝 Contributing
+## 🤝 Contributing
 Pull requests and suggestions are welcome!
 Please open an issue first to discuss any changes.
 
