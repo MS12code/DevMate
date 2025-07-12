@@ -4,6 +4,8 @@
 
 ---
 
+![DevMate Screenshot](Screenshot(444).png)
+
 ## 📌 Features
 
 - 🧑‍💻 **Generate Code:** Instantly create code snippets in your chosen language.
@@ -16,6 +18,8 @@
 ---
 
 ## 🗂️ Project Structure
+
+```
 
 DevMate/
 ├── backend/                 # Backend server logic
@@ -36,7 +40,7 @@ DevMate/
 └── README.md                # Project documentation
 
 
-
+```
 ---
 
 ## ⚙️ Tech Stack
