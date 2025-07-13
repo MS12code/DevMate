@@ -17,7 +17,7 @@
 
 ---
 
-## 📌 Live Link:  https://ms12code.github.io/DevMate/
+## 🔗 Live Link:  https://ms12code.github.io/DevMate/
 
 ---
 
