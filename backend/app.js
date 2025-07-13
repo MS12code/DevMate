@@ -6,7 +6,19 @@ require('dotenv').config();
 const app = express();
 const PORT = 3000;
 
-app.use(cors());
+// Allowed domains
+const allowedOrigins = ['https://ms12code.github.io/DevMate/', 'https://ms12code.github.io/DevMate', 'https://ms12code.github.io'];
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('CORS error: Not allowed by CORS'));
+    }
+  }
+}));
+
 app.use(express.json());
 
 app.get('/', (req, res) => {
