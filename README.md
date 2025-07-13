@@ -15,6 +15,7 @@
 - ⏱️ **Analyze Complexity:** Get time and space complexity analysis.
 - 🤖 **Ask Anything:** Use AI to answer your coding doubts.
 
+---
 
 ## 📌 Live Link:  https://ms12code.github.io/DevMate/
 
