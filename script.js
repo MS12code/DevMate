@@ -11,7 +11,7 @@ function generateCode() {
 
   output.textContent = "Okay, Please wait...";
 
-  fetch("http://localhost:3000/generate", {
+  fetch("https://devmate-0ryg.onrender.com/generate", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
