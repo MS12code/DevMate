@@ -92,4 +92,4 @@ Add more AI features
 Pull requests and suggestions are welcome!
 Please open an issue first to discuss any changes.
 
-Made with 💜 by Medha Sharma
+Made with 💜 by Medha Sharma and Aayush Gupta.
